@@ -1,7 +1,11 @@
+import Container from "../../components/ui/Container";
+
 const Home = () => {
     return (
-        <section className="mx-auto max-w-7xl px-6 py-16">
+        <section className="py-16">
+            <Container>
             <h1 className="text-4xl font-bold">Home</h1>
+            </Container>
         </section>
     );
 };

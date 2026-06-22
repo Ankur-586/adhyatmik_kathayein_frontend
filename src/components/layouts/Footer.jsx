@@ -1,7 +1,9 @@
+import Container from "../ui/Container";
+
 const Footer = () => {
     return (
         <footer className="mt-20 border-t border-gray-200 bg-white">
-            <div className="mx-auto max-w-7xl px-6 py-12">
+            <Container className="py-12">
 
                 <div className="grid gap-10 md:grid-cols-3">
 
@@ -56,7 +58,7 @@ const Footer = () => {
                     © 2026 Adhyatmik Kathayein. All Rights Reserved.
                 </div>
 
-            </div>
+            </Container>
         </footer>
     );
 };
