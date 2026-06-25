@@ -1,12 +1,17 @@
+import HeroCarousel from "../../components/sections/HeroCarousel";
+import LatestVideo from "../../components/sections/LatestVideo";
+import Categories from "../../components/sections/Categories";
 import Container from "../../components/ui/Container";
 
 const Home = () => {
     return (
-        <section className="py-16">
+        <>
+            <HeroCarousel />
             <Container>
-            <h1 className="text-4xl font-bold">Home</h1>
+                <LatestVideo />
+                <Categories />
             </Container>
-        </section>
+        </>
     );
 };
 

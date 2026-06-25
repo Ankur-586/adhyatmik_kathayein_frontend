@@ -1,8 +1,12 @@
+import Container from "../../components/ui/Container";
+
 const Stories = () => {
     return (
-        <section className="mx-auto max-w-7xl px-6 py-16">
-            <h1 className="text-4xl font-bold">Stories</h1>
-        </section>
+        <Container>
+            <div className="mt-10 h-96 rounded-xl bg-red-500">
+                TEST
+            </div>
+        </Container>
     );
 };
 
